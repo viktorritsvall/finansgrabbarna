@@ -21,9 +21,11 @@ img{
         font-family: acumin-pro-extra-condensed;
         text-align: center;
         margin-top: 1rem;
+        margin-bottom: 1rem;
+        line-height: 4rem;
     }
     h2{
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: #6d6d7a;
         text-align: left;
         margin-top: 3rem;
@@ -43,6 +45,8 @@ img{
 @media (min-width: 768px){
     h1{
         font-size: 5rem;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
     }
     h2{
         font-size: 2rem;
@@ -176,6 +180,10 @@ img{
         height: 100%;
         border: 0;
     }
+    .intro-paragraph-text{
+        text-align: center;
+        margin-top: -1rem;
+    }
     .container{
         max-width: 85%;
         display: block;
@@ -209,7 +217,7 @@ img{
     }
     .sub-intro-form-email-box{
         -webkit-appearance: none;
-        padding: 0.5rem 3rem 0.5rem 1rem;
+        padding: 0.5rem 0.4rem 0.5rem 0.5rem;
         border: none;
         background-color: #efefef;
     }
@@ -222,9 +230,6 @@ img{
         cursor: pointer;
         font-size: 1rem;
         margin-top: 1rem;
-    }
-    .form-container{
-        max-width: 80%;
     }
     .sub-form-container{
         margin-bottom: 1rem;
@@ -242,8 +247,15 @@ img{
     .sub-container{
         margin: 0rem 0rem 0rem 0rem;
     }
+    .intro-link-title-text {
+        color: #ff7036;
+    }
     .intro-link-title-text:hover {
         text-decoration: underline;
+        color: #ff7036;
+    }
+    .intro-title-text{
+        margin-bottom: 1rem;
     }
 
     /* Mobile */
@@ -277,6 +289,45 @@ img{
     }
     .sub-form-container-discord{
         margin-top: 1rem;
+    }
+    .discord-title-text{
+        color: white;
+        margin-top: 0px;
+    }
+    .form-container{
+        -webkit-appearance: none;
+    }
+    .form-inner-container{
+        -webkit-appearance: none;
+    }
+    #mc_embed_signup input.email{
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    border: none;
+    border-radius: none;
+    background-color: #efefef;
+    -webkit-appearance: none;
+    }
+    #mc_embed_signup input.button{
+    color: white;
+    border: none;
+    background: #6d6d7a;
+    cursor: pointer;
+    -webkit-appearance: none;
+    }
+    #mc_embed_signup form{
+        padding: 0px;
+        -webkit-appearance: none;
+    }
+    #mc_embed_signup .mc-field-group{
+        padding-bottom: 0rem;
+        -webkit-appearance: none;
+    }
+    #mc_embed_signup .mc-field-group input{
+        max-width: 60%;
+        -webkit-appearance: none;
+    }
+    .discord-paragraph-text{
+        color: white;
     }
 
     /* Avanza + Lysa*/
@@ -315,36 +366,9 @@ img{
     .nybörjare-color:hover{
         background-color: #ff7036;
     }
-
-    /* Lysa */
-    .rectangle {
-        height: 150px;
-        width: 100%;
-        background-color: #0672E5;
-        max-width: 85%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 20px;
-        padding: 10px;
-      }
-      .lysa-video{
-        border-radius: 15px;
-        border: 5px solid #0672E5;
-        -webkit-appearance: none;
-        width: 200px;
-        height: 110px;
-      }
-      .lysa-main-logo{
-        padding: 10px 0px 10px 0px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 70%;
-      }
-      .lysa{
-          margin-bottom: 100px;
-      }
+    .landing-button{
+        margin-bottom: 1rem;
+    }
 
 
     /* About */
@@ -364,11 +388,18 @@ img{
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         cursor: pointer;
-        font-size: 1rem;
         min-width: 200px;
     }
     .about-image-1{
         margin-bottom: 2rem;
+    }
+    .about-title-text{
+        color: white;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+    .about-paragraph-text{
+        color: white;
     }
 
     /* To-do */
@@ -384,7 +415,6 @@ img{
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         cursor: pointer;
-        font-size: 1rem;
         min-width: 150px;
     }
 
@@ -501,8 +531,13 @@ img{
     .card {
         background-color:#EDEDED;
         padding: 2rem;
-        font-size: 22px;
-        border-radius: 20px;
+        margin-bottom: 1rem;
+        border-radius: 0px;
+        cursor: pointer;
+        box-shadow: 0 10px 10px 0 rgba(102, 76, 76, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    }
+    .card:hover{
+        transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
         cursor: pointer;
     }
     .cards {
@@ -545,6 +580,7 @@ img{
     /* Om oss */
     .avanza-link{
         text-align: center;
+        margin: 0rem 1rem 1rem 1rem;
     }
 
     /* Footer */
@@ -585,6 +621,10 @@ img{
     .footer-title{
         color: white;
         padding-top: 1rem;
+    }
+    .footer-title-text{
+        color: white;
+        padding-top: 2rem;
     }
 }
 
@@ -749,36 +789,6 @@ img{
         margin-bottom: 1rem;
     }
 
-    /* Lysa */
-    .rectangle {
-        height: 250px;
-        width: 100%;
-        background-color: #0672E5;
-        max-width: 80%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 20px;
-        padding: 20px;
-    }
-    .lysa-video{
-        border-radius: 15px;
-        border: 15px solid #0672E5;
-        -webkit-appearance: none;
-        width: 400px;
-        height: 220px;
-    }
-    .lysa{
-        margin-bottom: 150px;
-    }
-    .lysa-main-logo{
-        padding: 10px 0px 15px 0px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 60%;
-    }
-
     /* About */
     .about-background{
         background: #6d6d7a;
@@ -792,7 +802,6 @@ img{
         color: #ff7036;
         border: none;
         background: white;
-        font-size: 15px;
         cursor: pointer;
     }
     .about-image-1{
@@ -816,6 +825,15 @@ img{
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         cursor: pointer;
+    }
+
+    /* Artiklar */
+    .articles-title-text{
+        margin-bottom: 1rem;
+        margin-top: 4rem;
+    }
+    .card{
+        margin-right: 1rem;
     }
 
     /* Om oss */
@@ -853,7 +871,6 @@ img{
         font-size: 1.5rem;
     }
     .sub-container{
-        max-width: 60%;
         margin: auto;
     }
     .intro-form-email-box{
@@ -889,9 +906,6 @@ img{
         cursor: pointer;
         font-size: 1rem;
         margin-top: 1rem;
-    }
-    .form-container{
-        max-width: 80%;
     }
     .sub-form-container{
         margin-bottom: 1rem;
@@ -1015,7 +1029,6 @@ img{
         color: #ff7036;
         border: none;
         background: white;
-        font-size: 1.5rem;
         cursor: pointer;
     }
     .about-image-1{
@@ -1035,7 +1048,6 @@ img{
         left: 50%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
-        font-size: 1.5rem;
         cursor: pointer;
     }
     .to-do-image{
@@ -1046,9 +1058,7 @@ img{
 
     /* Discord */
     .rectangle-discord{
-        max-width: 80%;
         background-color: #8A9CFF;
-        max-width: 80%;
         display: block;
         padding: 30px;
         margin: 2rem auto 2rem auto;
@@ -1179,7 +1189,6 @@ img{
         color: #ff7036;
         border: none;
         background: white;
-        font-size: 25px;
         cursor: pointer;
     }
     .about-image-1{
@@ -1198,7 +1207,6 @@ img{
         left: 50%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
-        font-size: 25px;
         cursor: pointer;
     }
     .to-do-image{
@@ -1207,7 +1215,6 @@ img{
 
     /* Discord */
     .rectangle-discord{
-        max-width: 80%;
         display: block;
         margin-left: auto;
         margin-right: auto;
