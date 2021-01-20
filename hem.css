@@ -1,0 +1,329 @@
+/* Reset */
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    position: relative;
+    font-family: acumin-pro, sans-serif;
+}
+img{
+    max-width: 100%;   
+    height: auto;
+  }
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+  
+  *,
+  :after,
+  :before {
+    box-sizing: inherit;
+  }
+
+  /* Text Properties */
+@media (min-width: 0px){
+  h1{
+      font-size: 4rem;
+      color: #ff7036;
+      font-family: acumin-pro-extra-condensed;
+      text-align: center;
+      margin-top: 1rem;
+  }
+  h2{
+      font-size: 2rem;
+      color: #6d6d7a;
+      text-align: left;
+      margin-top: 3rem;
+      margin-right: auto;
+  }
+  h3{
+      font-size: 1.5rem;
+      color: #6d6d7a;
+      text-align: left;
+  }
+  p{
+      font-size: 1rem;
+      color: #6d6d7a;
+      text-align: left;
+  }
+}
+@media (min-width: 768px){
+  h1{
+      font-size: 5rem;
+  }
+  h2{
+      font-size: 2rem;
+      margin-top: 4rem;
+  }
+  h3{
+      font-size: 2.5rem;
+  }
+  p{
+      font-size: 1.2rem;
+  }
+}
+  
+
+
+
+/* Mobile */
+@media (min-width: 0px){
+    .footer-background{
+      background: #6d6d7a;
+      margin-top: 2rem;
+  }
+  .footer-copyright-text{
+      text-align: left;
+      color: white;
+      padding-top: 0.5rem;
+      padding-bottom: 2rem;
+  }
+  .footer-investering-text{
+      text-align: center;
+      color: white;
+      padding-bottom: 1rem;
+      padding-top: 2rem;
+      text-align: left;
+  }
+  .footer-title-text{
+      color: white;
+      font-family: acumin-pro-extra-condensed, sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      text-align: left;
+      padding-top: 2rem;
+      line-height: 3.5rem;
+      padding-bottom: 1rem;
+  }
+  .fab{
+      padding-right: 10px;
+      padding-left: 10px;
+      font-size: 2rem;
+      color: #6d6d7a;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+  }
+  .fab:hover{
+      color: #ff7036;
+      cursor: pointer;
+  }
+  .fas{
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 2rem;
+    color: #ff7036;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.fas:hover{
+    cursor: pointer;
+}
+  .icons{
+      text-align: center;
+  }
+  .footer-link{
+      color: white;
+  }
+  .footer-link:hover{
+      color: #ff7036;
+      cursor: pointer;
+  }
+  .container{
+      max-width: 85%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .intro-text{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+  .intro-paragraph{
+    text-align: center;
+  }
+  .form-container{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    -webkit-appearance: none;
+  }
+  .form-inner-container{
+      max-width: 550px;
+      margin: 1rem auto 1rem auto;
+      -webkit-appearance: none;
+  }
+  #mc_embed_signup input.email{
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    border: none;
+    border-radius: none;
+    background-color: #efefef;
+    -webkit-appearance: none;
+  }
+  #mc_embed_signup input.button{
+    color: white;
+    border: none;
+    background: #6d6d7a;
+    cursor: pointer;
+    -webkit-appearance: none;
+  }
+  #mc_embed_signup form{
+      padding: 0px;
+      -webkit-appearance: none;
+  }
+  #mc_embed_signup .mc-field-group{
+      padding-bottom: 0rem;
+      -webkit-appearance: none;
+  }
+  #mc_embed_signup .mc-field-group input{
+      max-width: 60%;
+      -webkit-appearance: none;
+  }
+}
+
+/* 768px */
+@media (min-width: 768px){
+  .footer-title-text{
+      color: white;
+      font-family: acumin-pro-extra-condensed, sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      padding: 25px 0px 10px 0px;
+  }
+  .container{
+      max-width: 70%;
+  }
+  .intro-text{
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+}
+
+/* 992px */
+@media (min-width: 992px){
+  .footer-background{
+    margin-top: 4rem;
+}
+.footer-investering-text{
+  padding-top: 4rem;
+}
+.footer-copyright-text{
+  padding-bottom: 4rem;
+}
+}
+
+/* 1600px */
+@media (min-width: 1600px){
+  .footer-copyright-text{
+      padding: 2rem 1rem 3rem 0rem;
+  }
+  .footer-title-text{
+      color: white;
+      font-family: acumin-pro-extra-condensed, sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      padding: 4rem 0px 3rem 0px;
+  }
+  .footer-investering-text{
+      padding: 2rem 0px 0rem 0px;
+  }
+  .container{
+      max-width: 50%;
+  }
+}
+
+
+
+
+  body {
+    background-image: url(./assets/images/imagelink2-min.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    max-width: 100%;
+    min-height: 100vh;
+    height: auto;
+    letter-spacing: 0.1em;
+  }
+  
+  .logo {
+    width: 150px;
+    margin-top: 1rem;
+  }
+
+  .links{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  
+  .links__item {
+    display: block;
+    max-width: 550px;
+    margin: 1rem auto 1rem auto;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+  }
+
+  .links__item-2 {
+    display: block;
+    max-width: 550px;
+    margin: 1rem auto 1rem auto;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .picture:hover{
+    color: white;
+    cursor: pointer;
+  }
+  
+  .links__item:hover {
+    background-color: #ff7036;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .links__item--past-event {
+    color: #6d6d7a;
+    padding: 1rem 1rem 1rem 1rem;
+    margin-top: -5px;
+  }
+  
+  .channels {
+    display: flex;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .channels .channels__item {
+    flex: 1;
+    margin-right: 5px;
+    transition: transform 0.2s;
+  }
+  
+  .channels__item:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+  }
+
+  .intro-text{
+    text-align: center;
+    margin-top: 0rem;
+  }
+
+  .intro-text:hover{
+    color: #ff7036;
+  }
