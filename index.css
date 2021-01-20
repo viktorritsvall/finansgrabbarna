@@ -21,10 +21,11 @@ img{
         font-family: acumin-pro-extra-condensed;
         text-align: center;
         margin-top: 1rem;
+        margin-bottom: 1rem;
         line-height: 4rem;
     }
     h2{
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: #6d6d7a;
         text-align: left;
         margin-top: 3rem;
@@ -44,6 +45,8 @@ img{
 @media (min-width: 768px){
     h1{
         font-size: 5rem;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
     }
     h2{
         font-size: 2rem;
@@ -214,7 +217,7 @@ img{
     }
     .sub-intro-form-email-box{
         -webkit-appearance: none;
-        padding: 0.5rem 3rem 0.5rem 1rem;
+        padding: 0.5rem 0.rem 0.5rem 0.5rem;
         border: none;
         background-color: #efefef;
     }
@@ -250,6 +253,9 @@ img{
     .intro-link-title-text:hover {
         text-decoration: underline;
         color: #ff7036;
+    }
+    .intro-title-text{
+        margin-bottom: 1rem;
     }
 
     /* Mobile */
@@ -382,7 +388,6 @@ img{
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         cursor: pointer;
-        font-size: 1rem;
         min-width: 200px;
     }
     .about-image-1{
@@ -410,7 +415,6 @@ img{
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         cursor: pointer;
-        font-size: 1rem;
         min-width: 150px;
     }
 
@@ -785,36 +789,6 @@ img{
         margin-bottom: 1rem;
     }
 
-    /* Lysa */
-    .rectangle {
-        height: 250px;
-        width: 100%;
-        background-color: #0672E5;
-        max-width: 80%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 20px;
-        padding: 20px;
-    }
-    .lysa-video{
-        border-radius: 15px;
-        border: 15px solid #0672E5;
-        -webkit-appearance: none;
-        width: 400px;
-        height: 220px;
-    }
-    .lysa{
-        margin-bottom: 150px;
-    }
-    .lysa-main-logo{
-        padding: 10px 0px 15px 0px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 60%;
-    }
-
     /* About */
     .about-background{
         background: #6d6d7a;
@@ -828,7 +802,6 @@ img{
         color: #ff7036;
         border: none;
         background: white;
-        font-size: 15px;
         cursor: pointer;
     }
     .about-image-1{
@@ -852,6 +825,15 @@ img{
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         cursor: pointer;
+    }
+
+    /* Artiklar */
+    .articles-title-text{
+        margin-bottom: 1rem;
+        margin-top: 4rem;
+    }
+    .card{
+        margin-right: 1rem;
     }
 
     /* Om oss */
@@ -889,7 +871,6 @@ img{
         font-size: 1.5rem;
     }
     .sub-container{
-        max-width: 60%;
         margin: auto;
     }
     .intro-form-email-box{
@@ -1048,7 +1029,6 @@ img{
         color: #ff7036;
         border: none;
         background: white;
-        font-size: 1.5rem;
         cursor: pointer;
     }
     .about-image-1{
@@ -1068,7 +1048,6 @@ img{
         left: 50%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
-        font-size: 1.5rem;
         cursor: pointer;
     }
     .to-do-image{
@@ -1079,9 +1058,7 @@ img{
 
     /* Discord */
     .rectangle-discord{
-        max-width: 80%;
         background-color: #8A9CFF;
-        max-width: 80%;
         display: block;
         padding: 30px;
         margin: 2rem auto 2rem auto;
@@ -1212,7 +1189,6 @@ img{
         color: #ff7036;
         border: none;
         background: white;
-        font-size: 25px;
         cursor: pointer;
     }
     .about-image-1{
@@ -1231,7 +1207,6 @@ img{
         left: 50%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
-        font-size: 25px;
         cursor: pointer;
     }
     .to-do-image{
@@ -1240,7 +1215,6 @@ img{
 
     /* Discord */
     .rectangle-discord{
-        max-width: 80%;
         display: block;
         margin-left: auto;
         margin-right: auto;
