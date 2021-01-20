@@ -66,9 +66,58 @@ html {
       font-size: 1.2rem;
   }
 }
-  
 
 
+  /* Email */
+@media (min-width: 0px){
+  /* Changes the style of the overall form */
+  #mc_embed_signup {
+    color: #000000 !important;
+    text-align: center !important;
+    -webkit-appearance: none !important;
+  }
+
+  /* Styles the header text above the inputs */
+  #mc_embed_signup h2 {
+    font-size: 18px !important;
+    margin: 0 0 20px !important;
+    color: #000000 !important;
+    text-align: center !important;
+    -webkit-appearance: none !important;
+  }
+
+  /* Styles the input boxes */
+  #mc_embed_signup  input {
+    width: 200px !important;
+    border-radius: 0px !important;
+    -webkit-appearance: none !important;
+  }
+
+  /* Styles the subscribe button */
+  #mc_embed_signup .button {
+    background-color: #6d6d7a !important;
+    color: #ffffff !important;
+    margin: 0 auto !important;
+    border-radius: 0px !important;
+    -webkit-appearance: none !important;
+  }
+
+  #mc_embed_signup form {
+    padding: 0px !important;
+    -webkit-appearance: none !important;
+  }
+
+  #mc_embed_signup .mc-field-group input {
+    padding-left: 20px !important;
+    -webkit-appearance: none !important;
+  }
+
+  #mc_embed_signup .mc-field-group {
+    padding: 0px !important;
+    min-height: 45px !important;
+    -webkit-appearance: none !important;
+  }
+}
 
 /* Mobile */
 @media (min-width: 0px){
@@ -153,32 +202,6 @@ html {
   .form-inner-container{
       max-width: 550px;
       margin: 1rem auto 1rem auto;
-      -webkit-appearance: none;
-  }
-  #mc_embed_signup input.email{
-    padding: 0.5rem 3rem 0.5rem 1rem;
-    border: none;
-    border-radius: none;
-    background-color: #efefef;
-    -webkit-appearance: none;
-  }
-  #mc_embed_signup input.button{
-    color: white;
-    border: none;
-    background: #6d6d7a;
-    cursor: pointer;
-    -webkit-appearance: none;
-  }
-  #mc_embed_signup form{
-      padding: 0px;
-      -webkit-appearance: none;
-  }
-  #mc_embed_signup .mc-field-group{
-      padding-bottom: 0rem;
-      -webkit-appearance: none;
-  }
-  #mc_embed_signup .mc-field-group input{
-      max-width: 60%;
       -webkit-appearance: none;
   }
 }
