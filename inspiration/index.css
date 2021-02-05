@@ -217,7 +217,7 @@ img{
     }
     .sub-intro-form-email-box{
         -webkit-appearance: none;
-        padding: 0.5rem 0.4rem 0.5rem 0.5rem;
+        padding: 0.5rem 0.rem 0.5rem 0.5rem;
         border: none;
         background-color: #efefef;
     }
@@ -258,10 +258,61 @@ img{
         margin-bottom: 1rem;
     }
 
-    /* Mobile */
+    /* Poddar */
     .poddar-video{
         max-width: 100%;
     }
+
+    /* Email */
+@media (min-width: 0px){
+    /* Changes the style of the overall form */
+    #mc_embed_signup {
+      color: #000000 !important;
+      text-align: center !important;
+      -webkit-appearance: none !important;
+    }
+  
+    /* Styles the header text above the inputs */
+    #mc_embed_signup h2 {
+      font-size: 18px !important;
+      margin: 0 0 20px !important;
+      color: #000000 !important;
+      text-align: center !important;
+      -webkit-appearance: none !important;
+    }
+  
+    /* Styles the input boxes */
+    #mc_embed_signup  input {
+      width: 200px !important;
+      border-radius: 0px !important;
+      -webkit-appearance: none !important;
+    }
+  
+    /* Styles the subscribe button */
+    #mc_embed_signup .button {
+      background-color: #6d6d7a !important;
+      color: #ffffff !important;
+      margin: 0 auto !important;
+      border-radius: 0px !important;
+      -webkit-appearance: none !important;
+    }
+  
+    #mc_embed_signup form {
+      padding: 0px !important;
+      -webkit-appearance: none !important;
+    }
+  
+    #mc_embed_signup .mc-field-group input {
+      padding-left: 20px !important;
+      -webkit-appearance: none !important;
+    }
+  
+    #mc_embed_signup .mc-field-group {
+      padding: 0px !important;
+      min-height: 45px !important;
+      -webkit-appearance: none !important;
+    }
+  }
 
     /* Discord */
     .rectangle-discord {
@@ -296,34 +347,10 @@ img{
     }
     .form-container{
         -webkit-appearance: none;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
     .form-inner-container{
-        -webkit-appearance: none;
-    }
-    #mc_embed_signup input.email{
-    padding: 0.5rem 3rem 0.5rem 1rem;
-    border: none;
-    border-radius: none;
-    background-color: #efefef;
-    -webkit-appearance: none;
-    }
-    #mc_embed_signup input.button{
-    color: white;
-    border: none;
-    background: #6d6d7a;
-    cursor: pointer;
-    -webkit-appearance: none;
-    }
-    #mc_embed_signup form{
-        padding: 0px;
-        -webkit-appearance: none;
-    }
-    #mc_embed_signup .mc-field-group{
-        padding-bottom: 0rem;
-        -webkit-appearance: none;
-    }
-    #mc_embed_signup .mc-field-group input{
-        max-width: 60%;
         -webkit-appearance: none;
     }
     .discord-paragraph-text{
@@ -546,6 +573,7 @@ img{
         display: grid;
         grid-gap: 1rem;
         margin-bottom: 3rem;
+        margin-top: 3rem;
         cursor: pointer;
     }
     .card-1-text{
@@ -581,6 +609,105 @@ img{
     .avanza-link{
         text-align: center;
         margin: 0rem 1rem 1rem 1rem;
+    }
+
+    /* Cards */
+    .snip1527 {
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+        color: #ffffff;
+        font-size: 16px;
+        max-width: 310px;
+        min-width: 250px;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        margin: auto;
+      }
+      
+    .snip1527 img {
+    max-width: 100%;
+    vertical-align: top;
+    position: relative;
+    }
+    
+    .snip1527 figcaption {
+    padding: 25px 20px 25px;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    }
+    
+    .snip1527 figcaption:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #ff7036;
+    content: '';
+    z-index: -1;
+    }
+    
+    .snip1527 .date {
+    background-color: #fff;
+    border-radius: 50%;
+    color: #ff7036;
+    font-size: 18px;
+    font-weight: 700;
+    min-height: 48px;
+    min-width: 48px;
+    padding: 10px 0;
+    position: absolute;
+    right: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    top: -25px;
+    }
+    
+    .snip1527 .date span {
+    display: block;
+    line-height: 14px;
+    }
+    
+    .snip1527 .date .month {
+    font-size: 11px;
+    }
+    
+    .snip1527 h3,
+    .snip1527 p {
+    margin: 0;
+    padding: 0;
+    }
+    
+    .snip1527 h3 {
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 1.2rem;
+    }
+    
+    .snip1527 p {
+    font-size: 0.8em;
+    line-height: 1.6em;
+    margin-bottom: 0px;
+    color: white;
+    }
+    
+    .snip1527 a {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+    }
+    
+    .snip1527:hover img,
+    .snip1527.hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
     }
 
     /* Footer */
@@ -686,7 +813,6 @@ img{
 
     /* Intro */
     .intro-container{
-        max-width: 60%;
         margin-right: auto;
         margin-left: auto;
     }
