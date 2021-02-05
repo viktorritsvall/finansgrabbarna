@@ -318,8 +318,11 @@ img{
     .rectangle-discord {
         background-color: #8A9CFF;
         display: block;
-        padding: 2rem;
+        padding: 3rem 2rem 3rem 2rem;
         margin: 1rem auto 1rem auto;
+      }
+    .discord-container{
+        width: 100%;
       }
     .flex-container{
         max-width: 85%;
@@ -893,6 +896,12 @@ img{
         min-width: 500px;
         min-height: 250px;
     }
+    .discord-container{
+        width: 100%;
+    }
+    .rectangle-discord{
+        padding: 3rem 9rem 3em 9rem;
+    }
 
     /* Avanza + Lysa*/
     .avanza-video{
@@ -1186,8 +1195,12 @@ img{
     .rectangle-discord{
         background-color: #8A9CFF;
         display: block;
-        padding: 30px;
         margin: 2rem auto 2rem auto;
+        padding: 3rem 12rem 3rem 12rem;
+    }
+    .discord-container{
+        width: 100%;
+        max-width: 100%;
     }
 
     /* Om oss */
@@ -1344,7 +1357,11 @@ img{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        padding: 40px;
+        padding: 3rem 30rem 3rem 30rem;
+    }
+    .discord-container{
+        width: 100%;
+        max-width: 100%;
     }
 
     /* Om oss */
